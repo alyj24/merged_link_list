@@ -59,3 +59,6 @@ if __name__ == "__main__":
 
     print("\nMerged and Sorted Random List:")
     print_linked_list_without_arrow(merged_random_list)
+
+# Program is working.
+
