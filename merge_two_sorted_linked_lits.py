@@ -35,3 +35,12 @@ def generate_sorted_linked_list(length):
         current.next = ListNode(value)
         current = current.next
     return head
+
+def print_linked_list_without_arrow(head):
+    current = head
+    while current is not None:
+        print(current.value, end="")
+        current = current.next
+        if current is not None:
+            print(" -> ", end="")
+    print()
