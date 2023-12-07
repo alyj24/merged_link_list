@@ -25,3 +25,13 @@ def merge_sorted_lists(list1, list2):
             current.next = list2
 
         return lists.next
+
+def generate_sorted_linked_list(length):
+    values = [random.randint(0, 50) for _ in range(length)]
+    values.sort()
+    head = ListNode(values[0])
+    current = head
+    for value in values[1:]:
+        current.next = ListNode(value)
+        current = current.next
+    return head
