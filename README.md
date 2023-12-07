@@ -1,4 +1,10 @@
 # Individual Assignment
+Output:
+
+![image](https://github.com/alyj24/merged_link_list/assets/129832127/1845e277-f586-4747-8786-f833fd8cc6e3)
+
+
+
 ```
 Lab Problem: Merge Two Sorted Linked Lists
 ```
