@@ -44,3 +44,18 @@ def print_linked_list_without_arrow(head):
         if current is not None:
             print(" -> ", end="")
     print()
+
+if __name__ == "__main__":
+    random_list1 = generate_sorted_linked_list(10)
+    random_list2 = generate_sorted_linked_list(10)
+
+    print("Random List 1:")
+    print_linked_list_without_arrow(random_list1)
+
+    print("\nRandom List 2:")
+    print_linked_list_without_arrow(random_list2)
+
+    merged_random_list = merge_sorted_lists(random_list1, random_list2)
+
+    print("\nMerged and Sorted Random List:")
+    print_linked_list_without_arrow(merged_random_list)
